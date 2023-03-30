@@ -1,0 +1,27 @@
+:root{
+    --color-bg:#1f1f38;
+    --color-bg-variant: #2c2c6c;
+    --color-primary: #4db5ff;
+    --color-primary-variant: rgba(77, 181, 255,0.4);
+    --color-light: rgba(25S, 255, 255, 0.6);
+    --color-white:#fff;
+}
+
+.projectItem{
+    background-color: rgba(77, 181, 255,0.2);
+}
+.projectItem:hover{
+    transform: translateX(-20px);
+    transition: 0.5s;
+}
+.projectItem:not(:hover){
+    transition: 0.5s;
+}
+
+.projectItem p{
+    color: var(--color-primary) !important;
+}
+
+.projectItem a{
+    color: var(--color-white) !important;
+}

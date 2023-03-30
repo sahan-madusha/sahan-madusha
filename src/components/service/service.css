@@ -1,0 +1,25 @@
+:root{
+    --color-bg:#1f1f38;
+    --color-bg-variant: #2c2c6c;
+    --color-primary: #4db5ff;
+    --color-primary-variant: rgba(77, 181, 255,0.4);
+    --color-light: rgba(25S, 255, 255, 0.6);
+    --color-white:#fff;
+}
+
+.serviceItem span{
+    color:var(--color-primary);
+}
+.serviceItem{
+    border: 1px solid var(--color-white);
+    border-radius: 10px;
+}
+.serviceItem:hover{
+    background-color: var(--color-primary-variant);
+    transition: 0.5s;
+    cursor: pointer;
+    scale: 1.1;
+}
+.serviceItem:not(:hover){
+    transition: 0.5s;
+}

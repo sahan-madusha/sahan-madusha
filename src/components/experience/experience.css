@@ -1,0 +1,37 @@
+:root{
+    --color-bg:#1f1f38;
+    --color-bg-variant: #2c2c6c;
+    --color-primary: #4db5ff;
+    --color-primary-variant: rgba(77, 181, 255,0.4);
+    --color-light: rgba(25S, 255, 255, 0.6);
+    --color-white:#fff;
+}
+
+.frontEndExpeience{
+    background-color: transparent;
+    border-color: var(--color-bg-variant) !important;
+    margin: 1vh 10px !important;
+}
+.frontEndExpeience h2,
+.exItem span{
+    color: var(--color-primary);
+}
+
+.exItem span h5{
+    color: white !important;
+    margin-left: 10px;
+}
+
+.backEndExpeience{
+    background-color: var(--color-bg-variant);
+    margin: 1vh 10px !important;
+}
+
+.experienceItem:hover{
+    cursor: pointer;
+    scale: 1.1;
+    transition: 0.5s;
+}
+.experienceItem:not(:hover){
+    transition: 0.5s;
+}

@@ -1,0 +1,38 @@
+:root{
+    --color-bg:#1f1f38;
+    --color-bg-variant: #2c2c6c;
+    --color-primary: #4db5ff;
+    --color-primary-variant: rgba(77, 181, 255,0.4);
+    --color-light: rgba(25S, 255, 255, 0.6);
+    --color-white:#fff;
+}
+
+
+.mobileMenuBar{
+    position: fixed;
+    display: none;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--color-primary-variant) !important;
+    border-color: var(--color-primary-variant) !important;
+}
+.mobileMenuBar a{
+    background-color:var(--color-bg) !important;
+    color: var(--color-white) !important;
+    border-color: var(--color-primary-variant) !important;
+}
+.mobileMenuBar a:hover {
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.mobileMenuBar a:not(:hover){
+    transition: 0.5s;
+}
+
+/*   media   */
+@media (max-width: 766px) { 
+    .mobileMenuBar{
+        display:flex;
+    }
+}

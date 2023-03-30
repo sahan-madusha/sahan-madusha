@@ -1,0 +1,31 @@
+p {
+    color: white;
+    white-space: normal;
+    overflow: auto;
+    padding: 5px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    word-wrap: break-word
+}
+
+span{
+    white-space: pre-wrap;
+}
+
+.BlogText{
+    background-color: aliceblue;
+}
+
+.BlogImage{
+    width: 95%;
+}
+
+/*   media   */
+@media (min-width: 766px) { 
+    .BlogImage{
+        width: 50%;
+    }
+}
