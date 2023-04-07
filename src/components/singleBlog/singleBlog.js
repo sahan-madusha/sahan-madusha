@@ -17,7 +17,7 @@ const SingleBlog = () => {
       <div className='text-center text-uppercase'>
         <h1 className='BlogTitle text-light fw-bold'>{blogData.title}</h1>
         <br />
-        <img src={process.env.PUBLIC_URL + '/img/blog/' + blogData.img} className="border border-1 my-3 rounded Blog" alt="blog image" />
+        <img src={process.env.PUBLIC_URL + '/img/blog/' + blogData.img} className="border border-1 my-3 rounded BlogImage" alt="blog image" />
       </div>
 
       <div className='BlogText border border-0 rounded m-3 p-5 '>

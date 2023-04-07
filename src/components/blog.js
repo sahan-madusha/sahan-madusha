@@ -1,7 +1,7 @@
 const objBlogData = [
     {
       title: "Road map for Front-end developers(beginner level)",
-      img: "/img/blog/FrontEndDeveloper.png",
+      img: "FrontEndDeveloper.png",
       id: "1",
       description:`
       As a beginner front-end developer, it's important to have a roadmap that guides you towards building a solid foundation of skills and knowledge. In this article, we'll provide you with a step-by-step roadmap to help you become a successful front-end developer.

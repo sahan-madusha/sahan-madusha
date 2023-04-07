@@ -12,7 +12,7 @@ import Service from '../components/service/service';
 
 const Home = () => {
   return (
-    <div>
+    <div className='mainClass'>
         <Header/>
         <About/>
         <Experience/>

@@ -14,7 +14,7 @@ const Header = () => {
       <div className=' text-light headerText'>
         <h3 className='my-2'>Hi ! i'm</h3>
         <h1 className='text-uppercase my-2'>sahan madusha</h1>
-        <h6 className='my-2'>Fullstack developer</h6>
+        <h6 className='my-2'>web developer</h6>
       </div>
 
       {/* header button */}

@@ -99,3 +99,6 @@ body{
       transform: rotate(360deg);
     }
   }
+  .mainClass{
+    overflow-x: hidden !important;
+  }
